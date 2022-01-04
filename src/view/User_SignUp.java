@@ -204,7 +204,6 @@ public class User_SignUp extends javax.swing.JFrame {
         jPasswordField2.setText("jPasswordField2");
         getContentPane().add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 450, 210, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasnayen\\Music\\Untitled-1.png")); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 600, 600));
 

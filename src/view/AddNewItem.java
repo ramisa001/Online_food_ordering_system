@@ -1,6 +1,5 @@
 package view;
 
-
 import controller.Newitem;
 import java.awt.HeadlessException;
 import java.sql.SQLException;
@@ -70,7 +69,7 @@ public class AddNewItem extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 210, 29));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 200, 29));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Arial Rounded MT Bold", 1, 24)); // NOI18N
@@ -94,7 +93,7 @@ public class AddNewItem extends javax.swing.JFrame {
         jTextField3.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
         jTextField3.setForeground(new java.awt.Color(255, 255, 255));
         jTextField3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 220, 210, 29));
+        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 220, 200, 29));
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
@@ -128,8 +127,6 @@ public class AddNewItem extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 380, -1, -1));
-
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasnayen\\Videos\\Untitled-10.png")); // NOI18N
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -6, 630, 560));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

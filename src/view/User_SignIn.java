@@ -4,18 +4,6 @@ import controller.user;
 import java.awt.HeadlessException;
 import javax.swing.JOptionPane;
 
-
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author User
- */
 public class User_SignIn extends javax.swing.JFrame {
 
     /**
@@ -107,7 +95,7 @@ public class User_SignIn extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, -1, -1));
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 350, 70, -1));
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Arial Narrow", 1, 18)); // NOI18N
