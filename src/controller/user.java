@@ -9,8 +9,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
 
-public class User {
-    public void signIn(String userID, String pass){
+public class user {
+    public boolean signIn(String userID, String pass){
         try{
         DataConnector c = new DataConnector();
                 Connection connection = c.Connector();
@@ -30,14 +30,16 @@ public class User {
            else{
                JOptionPane.showMessageDialog(null, "Incorrect Password");
            }
+           return true;
         }
         catch(HeadlessException | ClassNotFoundException | SQLException e){
            JOptionPane.showMessageDialog(null, "UserId does not exist");
        }
+        return false;
     }
     
     
-    public void signup(String UserId,String fName,String lName,String email,String address,String pass, String conpass){
+    public boolean signup(String UserId,String fName,String lName,String email,String address,String pass, String conpass){
        try{
             DataConnector c = new DataConnector();
                 Connection connection = c.Connector();
@@ -70,10 +72,12 @@ public class User {
                     JOptionPane.showMessageDialog(null, "Password did not match");
                 }
        }
+            return true;
        
     }
        catch(HeadlessException | ClassNotFoundException | SQLException e){
                 JOptionPane.showMessageDialog(null, "Somethnig went wrong");
                }
+            return false;
     }
 }
